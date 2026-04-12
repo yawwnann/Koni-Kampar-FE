@@ -35,6 +35,7 @@ import FacilitiesList from "./pages/Admin/Facilities/FacilitiesList.jsx";
 import FacilitiesForm from "./pages/Admin/Facilities/FacilitiesForm.jsx";
 import UserList from "./pages/Admin/Users/UserList.jsx";
 import UserForm from "./pages/Admin/Users/UserForm.jsx";
+import ContactList from "./pages/Admin/Contact/ContactList.jsx";
 
 function AppContent() {
   const location = useLocation();
@@ -94,6 +95,8 @@ function AppContent() {
           <Route path="users" element={<UserList />} />
           <Route path="users/tambah" element={<UserForm />} />
           <Route path="users/edit/:id" element={<UserForm />} />
+          {/* Contacts */}
+          <Route path="kontak" element={<ContactList />} />
         </Route>
       </Routes>
       {!isAuthPage && !isAdminPage && <Footer />}

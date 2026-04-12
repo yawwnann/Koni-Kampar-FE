@@ -9,6 +9,7 @@ import {
   Image,
   Building2,
   Users,
+  MessageSquare,
   LogOut,
   Menu,
   X,
@@ -53,6 +54,11 @@ const sidebarItems = [
     name: "Sarana & Prasarana",
     to: "/admin/fasilitas",
     icon: Building2,
+  },
+  {
+    name: "Kontak Masuk",
+    to: "/admin/kontak",
+    icon: MessageSquare,
   },
   {
     name: "Administrator",

@@ -6,6 +6,8 @@ import About from "./pages/About/About.jsx";
 import Gallery from "./pages/Gallery/gallery.jsx";
 import News from "./pages/News/News.jsx";
 import NewsDetail from "./pages/News/NewsDetail.jsx";
+import Prestasi from "./pages/Prestasi/Prestasi.jsx";
+import PrestasiDetail from "./pages/Prestasi/PrestasiDetail.jsx";
 import Event from "./pages/Event/Event.jsx";
 import EventDetail from "./pages/Event/EventDetail.jsx";
 import SportBranch from "./pages/SportBranch/SportBranch.jsx";
@@ -62,6 +64,8 @@ function AppContent() {
         <Route path="/anggota/struktur" element={<Structure />} />
         <Route path="/anggota/bio" element={<Bio />} />
         <Route path="/kontak" element={<Contact />} />
+        <Route path="/prestasi" element={<Prestasi />} />
+        <Route path="/prestasi/:id" element={<PrestasiDetail />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
 

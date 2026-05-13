@@ -10,6 +10,7 @@ const navItems = [
   { name: "Tentang", to: "/tentang" },
   { name: "Galeri", to: "/galeri" },
   { name: "Berita", to: "/berita" },
+  { name: "Prestasi", to: "/prestasi" },
   { name: "Event", to: "/event" },
   { name: "Cabor", to: "/cabor" },
   { name: "Anggota", to: "/anggota" },
